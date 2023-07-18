@@ -37,7 +37,11 @@
                 </tr>
             @endforeach
         </table>
+        @if($array == [])
+        data tidak ada
         @endif
+        @endif
+
 </body>
 </html>
 

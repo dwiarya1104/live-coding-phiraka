@@ -28,6 +28,7 @@ class FibonacciController extends Controller
                 $akhir = $temp;
             }
         }
+        // dd($array);
         return view('fibonacci', compact('array'));
     }
 }
